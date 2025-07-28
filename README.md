@@ -8,11 +8,8 @@ This repository contains a complete end-to-end **fraud detection** analysis usin
 
 ```
 Fraud_Detection_Project/
-├── data/                     # Raw CSV files
-├── images/                   # Plots and visualizations from EDA
-├── fraud_detection.ipynb     # Jupyter notebook with EDA & ML pipeline
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
+├── fraud_detection.ipynb             # Jupyter notebook with EDA & ML pipeline
+└── README.md                         # Project documentation
 ```
 
 ---
@@ -113,8 +110,12 @@ weighted avg       0.75      0.75      0.75         8
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/Fraud_Detection_Project.git
+git clone https://github.com/ROCKYBH7/Fraud_Detection_Project.git
 cd Fraud_Detection_Project
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -122,7 +123,6 @@ pip install -r requirements.txt
 # Run Jupyter Notebook
 jupyter notebook fraud_detection.ipynb
 ```
-
 ---
 
 ## 👤 Author
